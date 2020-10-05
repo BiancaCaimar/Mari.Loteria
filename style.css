@@ -1,0 +1,51 @@
+.container
+{
+  display: flex;
+  flex-direction: column;
+  height: 300vh;
+
+  align-items: center;
+}
+
+.entradas
+{
+
+  flex-direction: column;
+}
+
+input
+{
+  max-width: 2.5em;
+  font-size: 3em;
+}
+
+h1
+{
+  font-family: cursive;
+  font-size: 50px;
+  color: black;
+}
+
+button
+{
+  background-color: pink;
+  border: 0px;
+  color: black;
+  font-size: 40px;
+  elevation: 30px;
+}
+
+#numSort
+{
+  list-style: none;
+  font-size: 3em;
+  padding: 0px;
+  margin-right: 10px;
+  display: flex;
+}
+
+p
+{
+  font-size: 2em;
+  color: black;
+}
